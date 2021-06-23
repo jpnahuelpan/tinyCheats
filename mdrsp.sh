@@ -11,5 +11,17 @@ mkdir $dp/input
 mkdir $dp/output
 mkdir $dp/src
 
+
 # paso 2 agregar main.py
-touch $dp/src/main.py 
+cat <<EOF>>$dp/src/main.py 
+# integrantes: Juan Pablo Nahuelpán 
+
+
+def main():
+
+
+
+
+
+if __name__ == '__main__':
+    main() 	 
