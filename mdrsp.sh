@@ -14,6 +14,8 @@ mkdir $dp/src
 
 # paso 2 agregar main.py
 cat <<EOF>>$dp/src/main.py 
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
 # integrantes: Juan Pablo Nahuelpán 
 
 
