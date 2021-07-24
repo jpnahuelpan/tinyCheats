@@ -36,4 +36,4 @@ config = [
 setup(**config)" >> $dp/setup.py 
  
 echo -e "#!/usr/bin/env python
-# -*- coding: utf-8 -*-" >> $dp/tests/$dp_tests.py 
+# -*- coding: utf-8 -*-" >> $dp/tests/$dp\_tests.py 
