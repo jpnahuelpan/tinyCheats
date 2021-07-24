@@ -32,7 +32,8 @@ config = [
     'install_requires': [''],
     'packages': [''],
     'scripts': [],
-    'name': '$dp'\n
+    'name': '$dp'
+]\n
 setup(**config)" >> $dp/setup.py 
  
 echo -e "#!/usr/bin/env python
