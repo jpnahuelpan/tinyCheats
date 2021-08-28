@@ -25,10 +25,11 @@ setup(name='$dp',
       description='',
       author='Juan Pablo Nahuelpán',
       author_email='juanpablonahuelpan@gmail.com',
-      url='',
-      packages=['distutils'],
+      url=''
 )\n
 " >> $dp/setup.py 
+
+touch $dp/README.md
 
 echo -e "#!/usr/bin/env python
 # -*- coding: utf-8 -*-" >> $dp/bin/app.py 
@@ -40,4 +41,5 @@ echo -e "#!/usr/bin/env python
 # -*- coding: utf-8 -*-" >> $dp/tests/$dp\_tests.py 
 
 # paso 3 crear enviroment.
+cd $dp
 virtualenv venv 
