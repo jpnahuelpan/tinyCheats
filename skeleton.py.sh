@@ -16,6 +16,7 @@ mkdir $dp/templates
 # paso 2 crear archivos relevantes.
 echo -e "#!/usr/bin/env python
 # -*- coding: utf-8 -*-
+
 try:
     from setuptools import setup\n
 except ImportError:
@@ -26,7 +27,7 @@ setup(name='$dp',
       author='Juan Pablo Nahuelpán',
       author_email='juanpablonahuelpan@gmail.com',
       url=''
-)\n
+      )
 " >> $dp/setup.py 
 
 touch $dp/README.md
@@ -42,4 +43,9 @@ echo -e "#!/usr/bin/env python
 
 # paso 3 crear enviroment.
 cd $dp
-virtualenv venv 
+virtualenv venv
+
+# paso 4 iniciar git
+git init
+echo -e "# Folders
+venv/" >> .gitignore
