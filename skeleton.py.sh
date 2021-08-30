@@ -45,7 +45,10 @@ echo -e "#!/usr/bin/env python
 cd $dp
 virtualenv venv
 
-# paso 4 iniciar git
+# paso 4 inicializar git
 git init
 echo -e "# Folders
 venv/" >> .gitignore
+
+# paso 5 inicializar git-flow
+git flow init
