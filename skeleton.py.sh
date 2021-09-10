@@ -50,10 +50,7 @@ git init
 echo -e "# Folders
 venv/" >> .gitignore
 
-# paso 5 inicializar git-flow
-git flow init
-
-# paso 6 agregar github-actions
+# paso 5 agregar github-actions
 mkdir .github
 mkdir .github/workflows
 echo -e "name: Pylint
