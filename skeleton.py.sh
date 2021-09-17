@@ -33,7 +33,8 @@ setup(name='$dp',
 touch $dp/README.md
 
 echo -e "#!/usr/bin/env python
-# -*- coding: utf-8 -*-" >> $dp/bin/app.py 
+# -*- coding: utf-8 -*-
+# Author: Juan Pablo Nahuelpán" >> $dp/app.py 
 
 touch $dp/$dp/__init__.py
 touch $dp/tests/__init__.py
